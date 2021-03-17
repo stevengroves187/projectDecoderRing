@@ -47,9 +47,8 @@ describe("substitution()", () => {
     })
 
     it ("should ignore capital letters", ()=> {
-        const actual = substitution(capitalSentence, true)
-        const expected = substitution(capitalSentence.toLowerCase(), true);
-
+        const actual = substitution(capitalSentence, codedAlphabet)
+        const expected = substitution(capitalSentence.toLowerCase(), codedAlphabet);
         expect(actual).to.equal(expected);
     })
 })
