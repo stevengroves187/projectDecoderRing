@@ -29,7 +29,7 @@
 
 
 
-  <h3 align="center">GrubDash API</h3>
+  <h3 align="center">Decoder Ring Project</h3>
 
   <p align="center">
     <br />
